@@ -5,10 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="frontend/style/main.css">
     <title>Document</title>
 </head>
 <body>
-    Hello World
+    <!-- karena ini navbar-nya gk full memanjang, maka hrs buat dlm div->container -->
+    <div class="container">
+        <!-- Check Doc Boostrap! diartikan = row (kesamping), navbar, navbar-expand-lg (untuk layar besar auto memanjang), navbar-light (brightness), bg-white (background-color=white)-->
+        <nav class="row navbar navbar-expand-lg navbar-light bg-white">
+            <a href="#" class="navbar-brand">
+                <img src="frontend/img/logo_nomads.png" alt="Logo NOMADS">
+            </a>
+            <!-- data target itu untuk ngambil id di div navbar -->
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-tonggle="collapse" data-target="#navb">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navb">
+                <ul class="navbar-nav ml-auto mr-3">
+                    <li class="#" class="nav-link">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="#" class="nav-link">
+                        <a href="#" class="nav-link">Paket Travel</a>
+                    </li>
+                    <li class="#" class="nav-link">
+                        <a href="#" class="nav-link">Testimonial</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
     <script src="jquery-3.5.1.min.js"></script>
     <script src="bootstrap/js/bootstrap.js"></script>
 </body>

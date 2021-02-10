@@ -1,0 +1,9 @@
+.navbar-brand {
+  /* Jangan taro img {} di luar .navbar-brand, karena 
+    semua img yng tdk termasuk dlm navbar bakal jd 40px */
+}
+
+.navbar-brand img {
+  max-height: 40px;
+}
+/*# sourceMappingURL=main.css.map */
