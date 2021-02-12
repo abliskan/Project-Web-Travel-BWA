@@ -1,9 +1,11 @@
+// Styling untuk keseluruhan website
 body {
     background-color: #E4E6EB;
     font-family: 'Assistant', sans-serif;
     color: #071C4D;
 }
 
+// Styling untuk Navbar
 .navbar-brand {
     /* Jangan taro img {} di luar .navbar-brand, karena 
     semua img yng tdk termasuk dlm navbar bakal jd 40px */
@@ -38,5 +40,36 @@ body {
     &:hover {
         background-color: #1E3771;
         color: #fff;
+    }
+}
+
+// Styling untuk header
+header { 
+    padding: 180px 0 165px;
+    margin-top: -70px;
+    background-image: url(../img/bg-img.jpg);
+    background-size: cover;
+    
+    h1, p {
+        color: #fff;
+    }
+    h1 {
+        font-family: 'Playfair Display', 
+        serif;
+        font-weight: bold;
+        font-size: 50px;
+    }
+    
+    p {
+        font-size: 22px;
+    }  
+    .btn-get-started {
+        background-color: #ff9e5f;   
+        color: #fff;
+        
+        &:hover {
+            background-color: #ffaa69;   
+            color: #fff;
+        }
     }
 }
