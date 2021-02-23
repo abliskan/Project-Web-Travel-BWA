@@ -1,0 +1,67 @@
+body {
+  background-color: #E4E6EB;
+  font-family: 'Assistant', sans-serif;
+  color: #071C4D;
+}
+
+.navbar-brand {
+  /* Jangan taro img {} di luar .navbar-brand, karena 
+    semua img yng tdk termasuk dlm navbar bakal jd 40px */
+}
+
+.navbar-brand img {
+  max-height: 40px;
+}
+
+.navbar-light .navbar-nav .navbar-link {
+  color: #071C4D;
+}
+
+.navbar-light .navbar-nav .navbar-link:active {
+  font-weight: bold;
+  color: #071C4D !important;
+}
+
+.btn-navbar-right {
+  margin-top: -10px !important;
+  margin-bottom: -9px !important;
+  margin-right: -18px !important;
+}
+
+.btn-login {
+  background-color: #071C4D;
+  color: #fff;
+}
+
+.btn-login:hover {
+  background-color: #1E3771;
+  color: #fff;
+}
+
+.section-success {
+  height: 90vh;
+}
+
+.section-success h1 {
+  font-weight: 600;
+  font-size: 26px;
+  color: #071c4d;
+}
+
+.section-success p {
+  font-weight: 300;
+  font-size: 18px;
+  color: #f77326af;
+}
+
+.section-success .btn-home-page {
+  border-radius: 4px;
+  background-color: #071C4D;
+  color: #fff;
+}
+
+.section-success .btn-home-page:hover {
+  background-color: #2a488e;
+  color: #fff;
+}
+/*# sourceMappingURL=success.css.map */
